@@ -7,3 +7,8 @@ pyOpenSSL==19.1.0
 python-dateutil==2.8.1
 requests-toolbelt==0.9.1
 sendgrid==6.0.4
+certifi>=2022.12.7 # not directly required, pinned by Snyk to avoid a vulnerability
+cryptography>=39.0.1 # not directly required, pinned by Snyk to avoid a vulnerability
+protobuf>=3.18.3 # not directly required, pinned by Snyk to avoid a vulnerability
+rsa>=4.7 # not directly required, pinned by Snyk to avoid a vulnerability
+setuptools>=65.5.1 # not directly required, pinned by Snyk to avoid a vulnerability
